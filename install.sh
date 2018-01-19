@@ -28,4 +28,4 @@ apt-get install aireplay-ng
 apt-get install ip
 apt-get install arping
 #etc.
-print Done installing. 
+say ¨Done installing.¨ 
