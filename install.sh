@@ -1,5 +1,6 @@
 #!/bin/sh
 print Installing scripts please wait.... 
+chmod u+x /path/to/install.sh
 apt-get update 
 apt-get upgrade
 apt-get install python3 -y
