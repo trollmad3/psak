@@ -45,37 +45,11 @@ the psak framework
 a quick help message for your module
  
 ### Installation Instructions
-Copy and paste the following into your terminal as user root
-to install psak:
+Run the following command to install all the necessary
+plugins.
 ```
-apt-get update
-apt-get upgrade
-apt-get install python3
-apt-get install python3-pip
-apt-get install pip
-apt-get install pip3
-pip3 install --upgrade pip
-pip3 install setuptools
-pip3 install ipython
-pip3 install graphviz
-pip3 install cryptography
-pip3 install scapy-python3
-pip3 install matplotlib
-pip3 install networkx
-pip3 install pyx
-pip3 install latex
-pip3 install docopt
-pip3 install netaddr
-apt-get install tcpdump python3-crypto ipython3
-apt-get install python3-tk
-#Basic penetration utils
-apt-get install airodump-ng
-apt-get install aireplay-ng
-apt-get install ip
-apt-get install arping
-# Finish up
-pip3 install psak
-apt autoremove
+chmod u+x /path/to/install.sh
+./install.sh
 ```
 
 ### Networking Research
